@@ -13,15 +13,14 @@ if sys.platform in ['linux2', 'solaris2', 'win32']:
 
 setup(
     name = "dvbobjects",
-    version = "0.1",
-    description = "Python Package for dvb transport stream data generation (PAT, PMT, NIT, Object Carousel, ...)",
-    author = "Lorenzo Pallara",
-    author_email = "l.pallara@avalpa.com",
+    version = "0.2",
+    description = "Python Package for dvb-ews Indonesia transport stream data generation",
+    author = "Lorenzo Pallara, Riza Azmi",
+    author_email = "l.pallara@avalpa.com, riza.azmi@kominfo.go.id",
     url = "",
     
     packages = [
         'dvbobjects',
-        'dvbobjects.ATSC',
         'dvbobjects.DSMCC',
         'dvbobjects.DSMCC.BIOP',
         'dvbobjects.DVB',
@@ -31,6 +30,7 @@ setup(
         'dvbobjects.MPEG',
         'dvbobjects.SBTVD',
         'dvbobjects.utils',
+        'dvbobjects.EWS',
         ],
 
     ext_modules = _ext_modules
