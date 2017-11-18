@@ -1,4 +1,5 @@
-#About Caster EWCaster
+#About EWCaster
+
 EWCaster is an Emergency Warning System DVB-based implemented in Indonesia free-to-air service. EWS payload is piggybacked in the DVB stream, and is broadcasted by muxer. 
 
 This project is forked from OpenCaster
@@ -8,10 +9,12 @@ Riza Azmi (hi@rizaazmi.id)
 #OpenCaster 
 
 ##Contact
+
 Lorenzo Pallara (l.pallara@avalpa.com)
 Andrea Venturi (a.venturi@avalpa.com)
 
 ##Introduction
+
 This package is a collection of softwares for Linux system to play out and multiplex MPEG2 transport stream format
 Use-cases:
 MHP, MHEG5, HbbTv and others interactive tv standards object carousel broadcast
@@ -26,6 +29,7 @@ PSI/SI generator
 EPG generator
 
 ##Integration
+
 OpenCaster output has been successfully integrated with a long list of dvb products, among them there are products by Cisco/Scientific Atlanta, Ericsson/Tandberg, Dektec, Eurotek, Harmonic/Scopus, MainConcept, Mitan, Screen Service, Adtec, Wellav, Arris, Sr-Systems, Deltacast, ...
 
 ##Manual
@@ -60,27 +64,29 @@ A demonstration transport stream is available at this address:http://www.avalpa.
 ##Handy tables
 
 ###DVB-T modulations
+1/4 	1/8 	1/16 	1/32
 
 |Modulation|Coding rate|Guard interval|
 |---|---|---|
-1/4 	1/8 	1/16 	1/32
-QPSK 		1/2 		4.976 	5.529 	5.855 	6.032
-		2/3 		6.635 	7.373 	7.806 	8.043
-		3/4 		7.465 	8.294 	8.782 	9.048
-		5/6 		8.294 	9.216 	9.758 	10.053
-		7/8 		8.709 	9.676 	10.246 	10.556
-16-QAM 		1/2 		9.953 	11.059 	11.709 	12.064
-		2/3 		13.271 	14.745 	15.612 	16.086
-		3/4 		14.929 	16.588 	17.564 	18.096
-		5/6 		16.588 	18.431 	19.516 	20.107
-		7/8 		17.418 	19.353 	20.491 	21.112
-64-QAM 		1/2 		14.929 	16.588 	17.564 	18.096
-		2/3 		19.906 	22.118 	23.419 	24.128
-		3/4 		22.394 	24.882 	26.346 	27.144
-		5/6 		24.882 	27.647 	29.273 	30.160
-		7/8 		26.126 	29.029 	30.737 	31.668
+|QPSK 		|1/2| 		|4.976 	|5.529 	|5.855 	|6.032|
+		|2/3| 		|6.635 	|7.373 	|7.806 	|8.043|
+		|3/4| 		|7.465 	|8.294 	|8.782 	|9.048|
+		|5/6|		|8.294 	|9.216 	|9.758 	|10.053|
+		|7/8| 		|8.709  |9.676 	|10.246 	|10.556|
+16-QAM 		1/2 		9.953	|11.059 	11.709 	12.064
+		2/3 		13.271 	|14.745 	15.612 	16.086
+		3/4 		14.929 	|16.588 	17.564 	18.096
+		5/6 		16.588 	|18.431 	19.516 	20.107
+		7/8 		17.418 	|19.353 	20.491 	21.112
+64-QAM 		1/2 		14.929 	|16.588 	17.564 	18.096
+		2/3 		19.906 	|22.118 	23.419 	24.128
+		3/4 		22.394 	|24.882 	26.346 	27.144
+		5/6 		24.882 	|27.647 	29.273 	30.160
+		7/8 		26.126 	|29.029 	30.737 	31.668
 
 channel to frequency table:
+|Channel|Frequency (MHz)|
+|---|---|
 |21|474|
 |22|482|
 |23|490|
