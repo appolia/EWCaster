@@ -1,3 +1,9 @@
+EWCaster
+EWCaster is an Emergency Warning System DVB-based implemented in Indonesia free-to-air service. EWS payload is piggybacked in the DVB stream, and is broadcasted by muxer. 
+
+Forked from OpenCaster
+Riza Azmi (hi@rizaazmi.id)
+
 OpenCaster 
 
 ==Contact==
