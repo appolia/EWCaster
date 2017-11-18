@@ -1,16 +1,17 @@
-EWCaster
+#About Caster EWCaster
 EWCaster is an Emergency Warning System DVB-based implemented in Indonesia free-to-air service. EWS payload is piggybacked in the DVB stream, and is broadcasted by muxer. 
 
-Forked from OpenCaster
+This project is forked from OpenCaster
+
 Riza Azmi (hi@rizaazmi.id)
 
-OpenCaster 
+#OpenCaster 
 
-==Contact==
+##Contact
 Lorenzo Pallara (l.pallara@avalpa.com)
 Andrea Venturi (a.venturi@avalpa.com)
 
-==Introduction==
+##Introduction
 This package is a collection of softwares for Linux system to play out and multiplex MPEG2 transport stream format
 Use-cases:
 MHP, MHEG5, HbbTv and others interactive tv standards object carousel broadcast
@@ -24,16 +25,16 @@ IP encapsualtor
 PSI/SI generator
 EPG generator
 
-==Integration==
+##Integration
 OpenCaster output has been successfully integrated with a long list of dvb products, among them there are products by Cisco/Scientific Atlanta, Ericsson/Tandberg, Dektec, Eurotek, Harmonic/Scopus, MainConcept, Mitan, Screen Service, Adtec, Wellav, Arris, Sr-Systems, Deltacast, ...
 
-==Manual==
+##Manual
 Avalpa Broadcast Server manual is available here: http://www.avalpa.com/the-key-values/15-free-software/33-opencaster
 
-==Test==
+##Test
 OpenCaster has been tested with Rohde & Schwarz DVM100L, Rohde & Schwarz DVM 400, Dektec StreamXpert and a countless number of set top boxes, digital receivers and television sets
 
-==Technical features==
+##Technical features
 - PSI generation (PAT, PMT, NIT, SDT, TDT, AIT, TOT, ...)
 - EPG/EIT generation
 - Object and data carousel generation and receivement (MHP, MHEG5, HbbTv, DVB-SSU, DSMCC, ...)
@@ -53,14 +54,16 @@ OpenCaster has been tested with Rohde & Schwarz DVM100L, Rohde & Schwarz DVM 400
 - MPEG2 video and MPEG2/AC-3 audio ES header analyzer
 - M2TS file generation from TS file
 
-==Demo==
+##Demo
 A demonstration transport stream is available at this address:http://www.avalpa.com/the-key-values/15-free-software/59-opencaster-demo-roll
 
-==Handy tables==
+##Handy tables
 
-DVB-T modulations:
-Modulation 	Coding rate 	Guard interval
-				1/4 	1/8 	1/16 	1/32
+###DVB-T modulations
+
+|Modulation|Coding rate|Guard interval|
+|---|---|---|
+1/4 	1/8 	1/16 	1/32
 QPSK 		1/2 		4.976 	5.529 	5.855 	6.032
 		2/3 		6.635 	7.373 	7.806 	8.043
 		3/4 		7.465 	8.294 	8.782 	9.048
@@ -78,55 +81,55 @@ QPSK 		1/2 		4.976 	5.529 	5.855 	6.032
 		7/8 		26.126 	29.029 	30.737 	31.668
 
 channel to frequency table:
-21 	474
-22 	482
-23 	490
-24 	498
-25 	506
-26 	514
-27 	522
-28 	530
-29 	538
-30 	546
-31 	554
-32 	562
-33 	570
-34 	578
-35 	586
-36 	594
-37 	602
-38 	610
-39 	618
-40 	626
-41 	634
-42 	642
-43 	650
-44 	658
-45 	666
-46 	674
-47 	682
-48 	690
-49 	698
-50 	706
-51 	714
-52 	722
-53 	730
-54 	738
-55 	746
-56 	754
-57 	762
-58 	770
-59 	778
-60 	786
-61 	794
-62 	802
-63 	810
-64 	818
-65 	826
-66 	834
-67 	842
-68 	850
-69 	858
+|21|474|
+|22|482|
+|23|490|
+|24|498|
+|25|506|
+|26|514|
+|27|522|
+|28|530|
+|29|538|
+|30|546|
+|31|554|
+|32|562|
+|33|570|
+|34|578|
+|35|586|
+|36|594|
+|37|602|
+|38|610|
+|39|618|
+|40|626|
+|41|634|
+|42|642|
+|43|650|
+|44|658|
+|45|666|
+|46|674|
+|47|682|
+|48|690|
+|49|698|
+|50|706|
+|51|714|
+|52|722|
+|53|730|
+|54|738|
+|55|746|
+|56|754|
+|57|762|
+|58|770|
+|59|778|
+|60|786|
+|61|794|
+|62|802|
+|63|810|
+|64|818|
+|65|826|
+|66|834|
+|67|842|
+|68|850|
+|69|858|
 
 mpeg audio layer 2 suggested bit rates:
 56 kbps -> 1 pes packet -> 1 ts packet
